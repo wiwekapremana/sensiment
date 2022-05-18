@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body {
+    font-family: 'Lora', serif;
+    background-color: #ffffff;
+}
+
+p {
+    color: #b3b3b3;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Lora', serif;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.content {
+    padding: 22rem 0 0 0;
+}
+
+.half .top {
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #A33838;
+}
+
+.half .top h1 {
+    position: absolute;
+    width: 200px;
+    height: 62px;
+    left: 158px;
+    top: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.half .top-after {
+    height: 35px;
+    background: #000000;
+}
+
+.half .top img {
+    position: absolute;
+    width: 165px;
+    height: 114px;
+}
+
+@media (max-width: 991.98px) {
+    .half .top {
+        height: 200px;
+    }
+}
+
+.half .contents {
+    background: #fff;
+}
+
+.half .contents {
+    width: 80%;
+}
+
+@media (max-width: 1199.98px) {
+    .half .contents,
+    .half .top {
+        width: 100%;
+    }
+}
+
+.half .contents .form-control,
+.half .top .form-control {
+    border: none;
+    border-radius: 4px;
+    height: 54px;
+    background: #efefef;
+}
+
+.half .top {
+    background-size: cover;
+    background-position: center;
+}
+
+.half a {
+    color: #888;
+    text-decoration: underline;
+}
+
+.half .btn {
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background: #408CFF;
+    color: #fff;
+    border-radius: 10px;
+    place-items: center;
+    box-shadow: #094c66 4px 4px 0px;
+    transition: transform 200ms, box-shadow 200ms;
+}
+
+.half .btn :active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+
+.form-block {
+    background: #E6E6E6;
+    padding: 30px;
+    margin-top: -330px;
+    border-radius: 28px;
+}
+
+.form-block img {
+    width: 207px;
+    height: 144px;
+    left: 856px;
+    top: 100px;
+}
+
+@media (max-width: 991.98px) {
+    .form-block {
+        padding: 25px;
+    }
+}
