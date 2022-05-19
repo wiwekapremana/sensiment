@@ -1,6 +1,6 @@
-/* @media (max-width: 325px) {
+@media (max-width: 325px) {
     .half .top {
-        height: fit-content;
+        height: 100%;
     }
     .half .top img {
         width: 90px;
@@ -14,6 +14,9 @@
 }
 
 @media (max-width: 991.98px) {
+    .half .top .form-block {
+        width: 100%;
+    }
     .half .top img {
         width: 90px;
         height: 50px;
@@ -23,21 +26,35 @@
         left: 90px;
         top: 0;
     }
-    .half .top {
-        height: 5%;
-    }
+}
+
+.half .contents {
+    background: #fff;
+}
+
+.half .contents {
+    width: 80%;
 }
 
 @media (max-width: 1199.98px) {
     .half .contents,
-    .half .top,
-    .navbar {
+    .half .top {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1247px) {
+    .half .contents {
+        width: 100%;
+    }
+    .half .form-block {
         width: 100%;
     }
 }
 
 @media (max-width: 991.98px) {
     .form-block {
+        width: 100%;
         padding: 25px;
     }
-} */
+}
